@@ -8,8 +8,8 @@ body {
 }
 .header {
 	width: 100%;
-    height: 620px;
-    background: url(..//img/footer.png)no-repeat;
+    min-height: 620px;
+    background: url(..//img/footer.png)no-repeat center top;
     list-style: none;
     background-size: cover;
     display: flex;
@@ -37,7 +37,7 @@ body {
 }
 .link {
 	color: #838383;
-    font-family: "Proxima Nova - Semibold";
+    font-family: "ProximaNova-Semibold";
     font-size: 17px;
     font-weight: 400;
     line-height: 34.92px;   
@@ -55,7 +55,7 @@ body {
 }
 .button {
 	color: #ffffff;
-	font-family: "Proxima Nova - Semibold";
+	font-family: "ProximaNova-Semibold";
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 34.92px;
@@ -70,11 +70,12 @@ body {
 h1 {
 	color: #ffffff;
 	font-family: "Proxima Nova - Semibold";
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 190px;
+
 }
 .info {
 	text-align: center;
@@ -144,6 +145,91 @@ h3 {
 	margin: 0 auto;
 }
 .video {
+	background: url(..//img/benjamin-dada-323461.png)no-repeat center top;
+	width: 100%;
+    min-height: 350px;
+    background-size: cover;
+}
+.video h2 {
+	font-size: 30px;
+    font-family: "ProximaNova";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.567;
+    text-align: center;
+    padding-top: 80px;
+}    
+.lock {
+	font-size: 15px;
+    font-family: "ProximaNova";
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+    text-align: center;
+     margin-top: -55px;    
+}    	
+.skidka {
+	text-align: center;
+	background: url(..//img/IMG.png)no-repeat center top;
+	background-size: cover;
+	width: 100%;
+	min-height: 373px;
+	padding-top: 80px;
+	color: #ffffff;
+	font-family: "Proxima Nova - Semibold";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 47px;
+	font-variant: small-caps;
+}
+.skidka h3 {
+	color: #ffffff;
+	font-family: "Proxima Nova - Semibold";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 47px;
+	text-transform: uppercase;
+	}
+.skidka p {
+	margin-top: 20px;
+}
+.form-group .form-control {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    display: flex;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    width: 213px;
+    height: 34px;
+}
+.form-inline {
 	display: flex;
-	margin-top: 82px;
+	justify-content: center;
+	align-items: center;
+}
+.btn {
+    height: 40px;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    color: #000000;
+	font-family: "Proxima Nova - Semibold";
+	font-size: 17px;
+	font-weight: 400;
+}
+.content2 {
+	display: flex;
+	
+}
+.content2 {
+	color: #252525;
+	font-family: "Proxima Nova - Semibold";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 220px;
+	text-transform: uppercase;
+	margin: 0px auto;
+	text-align: center;
+    
+}
+.form-control::placeholder {
+  color: #fff;  
 }
